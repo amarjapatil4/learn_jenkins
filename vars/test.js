@@ -2,8 +2,7 @@ window.addEventListener("load", function() {
     let headers = new Headers();
     let fetchRes = fetch(
     "https://jsonplaceholder.typicode.com/todos/1", {mode: 'cors',
-    credentials: 'omit',
-    headers: headers});
+    credentials: 'omit'});
 
     // fetchRes is the promise to resolve
     // it by using.then() method
