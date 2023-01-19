@@ -1,5 +1,5 @@
 window.addEventListener("load", function() {
-    alert("Hello World!);
+    alert("Hello World!");
 //     let headers = new Headers();
 //     let fetchRes = fetch(
 //     "https://jsonplaceholder.typicode.com/todos/1", {mode: 'cors',
